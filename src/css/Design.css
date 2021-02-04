@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.div-center{
+    background-color: #222222;
+    width: 400px;
+    display: block;
+    margin: auto;
+position: absolute;
+left: 0px;
+right: 0px;
+bottom: 0px;
+top: 0px;
+height: 420px;
+box-shadow: 1px 1px 1px 1px #0099FF;
+
+}
+.input{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+outline: none;
+}
+
+::placeholder{
+font-weight: bold;
+}
+input[type=text] {
+padding-left: 20px;
+}
+.w-icon{
+    font-size: 35px !important;
+    padding-bottom: -1px !important;
+    color: #0099FF;
+}
+.wave{
+    padding-top: 4px !important;
+}
+.heads{
+    color: white;
+    padding-top: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+.top{
+    background-color: #0099FF;
+    padding-top: 7px;
+    padding-bottom: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.coloris{
+    color: #0099FF;
+}
+.animation{
+   animation: animate ease-in-out infinite alternate-reverse;
+   animation-duration: 0.5s; 
+}
+.animatio{
+    animation: anima ease-in-out infinite alternate-reverse;
+    animation-duration: 0.5s;
+}
+@keyframes animate{
+    0%{
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateX(-15px);
+    }
+}
+@keyframes anima{
+    0%{
+        transform: translateX(8px);
+    }
+    100%{
+        transform: translateX(-15px);
+    }
+}
+.nod{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+
+    color: white;
+}
